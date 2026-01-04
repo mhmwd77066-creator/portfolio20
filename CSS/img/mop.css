@@ -1,0 +1,437 @@
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header{
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo{
+  color: #316cf4;
+  font-size: 1.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.navbar a{
+  color: #316cf4;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+ 
+}
+.navbar a:hover{
+  color: #601cfc;
+}
+section{
+  height: 100vh;
+  padding: 100px 200px;
+}
+.main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items:center;
+  margin: 0;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+
+.social{
+  position: absolute;
+  top: 350px;
+  left: 195px;
+}
+div h2, div h3{
+
+  color: #fff;
+position: relative;
+top:160px;
+justify-content: center;
+}
+
+
+div img {
+ 
+  width: 355px ;
+  height: 350px;
+  position: relative;
+  bottom: 35px ;
+  left:280px;
+  border-radius: 30px;
+}
+.main h2{
+  font-size: 1.4em;
+  font-weight: 500;
+  
+}
+.main h2 span{
+color: #3e90f3;
+font-size: 2.5em;
+}
+.main h3{
+
+  font-size: 1.5em;
+  font-weight: 700;
+  letter-spacing:1px ;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-btn{
+ width: 170px;
+ height: 40px;
+ position: relative;
+ bottom:160px;
+
+
+  /* الألوان والتدرج */
+  background: linear-gradient(45deg, #12c2e9, #c471ed, #4f5af6); /* تدرج ألوان متناسق */
+  color: white;
+  
+color: #ffff;
+text-decoration: none;
+font-size:1.5em ;
+font-weight: 600px;
+display: inline-block;
+letter-spacing: 0px;
+ border-radius: 50px; /* حواف دائرية بالكامل لشكل عصري */
+border: solid 0px transparent;
+cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* ظل خفيف */
+  text-transform: capitalize;
+ 
+}
+.main-btn:hover {
+  transform: translateY(-3px); /* الزرار يترفع لفوق شوية */
+  box-shadow: 0 8px 25px rgba(196, 113, 237, 0.4); /* الظل ينور بلون بنفسجي */
+  letter-spacing: 1px; /* الكلام يوسع عن بعضه سنة بسيطة */
+  filter: brightness(1.1); /* اللون يفتح شوية */
+}
+.main-btn:active {
+  transform: translateY(-1px);
+}
+ .social a i{
+  color: #0ba2b6;
+
+
+    justify-content: center; /* لو عايزهم في النص */
+    align-items: center;
+    gap: 10px; /* مسافة متساوية بينهم */
+    margin-top: 37px;
+    margin-left: 9px;
+    font-size: 20px;
+
+}
+.title{
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2em;
+  font-weight: 800px;
+  margin-bottom: 30px;
+}
+.content{
+ 
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: nowrap;
+gap: 20px;
+
+}
+.card{
+  background-color: #fff;
+ flex: 1;
+  box-shadow: 0  5px 25px rgb(1 1 1/ 15%)  ;
+  border-radius: 10px;
+ max-width: 320px;
+ min-width: 280px;
+ height: 350px;
+padding: 25px;
+  transition: 0.6s ease;
+}
+.card:hover{
+ transform: scale(1.1);
+}
+.icon{
+  color: #3a6cf4;
+  font-size: 8em;
+  text-align: center;
+}
+.info{
+  text-align: center;
+
+}
+.info h3{
+  position: relative;
+ top: 0px;
+  color: #3a6cf4;
+  font-size: 1.2em;
+  font-style: 700;
+  margin: 10px;
+}
+.projects{
+    background: linear-gradient(45deg, #12c2e9, #c471ed, #4f5af6);
+}
+.projects .content{
+margin-top: 30px;
+height: 280px;
+
+}
+.projects-card{
+  background-color: #fff;
+  border: solid 1px #fff;
+  min-height: 14em;
+ background: url(consultio-business-wordpress-theme-768x576-1.jpg);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease ;
+
+
+}
+.projects-card:hover{
+  transform: scale(1.1);
+}
+.projects-img img{
+
+width: 100%;
+}
+.projects-info{
+  padding: 1em;
+}
+.projects-cat{
+  font-size: 0.8em;
+  color: black;
+}
+.projects-card2{
+  background-color: #fff;
+  border: solid 1px #fff;
+  min-height: 14em;
+ background: url(01_dashboard_ui_concept.jpeg);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease ;
+
+
+}
+.projects-card3{
+  background-color: #fff;
+  border: solid 1px #fff;
+  min-height: 14em;
+ background: url(best_tech_website_design_examples-826x464.webp);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease ;
+
+
+}
+.projects-card2:hover{
+  transform: scale(1.1);
+}
+.projects-card3:hover{
+  transform: scale(1.1);
+}
+h4{
+  color: #3a6cf4;
+  margin: 10px;
+}
+@media (max-width: 992px) {
+
+  /* نسيطر على المسافات */
+  header {
+    padding: 10px 20px;
+  }
+
+  section {
+    padding: 100px 20px;
+    height: auto;
+  }
+
+  /* main section */
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* النص */
+  div h2,
+  div h3 {
+    position: static;
+    top: 0;
+  }
+
+  /* الصورة */
+  div img {
+    position: static;
+    width: 260px;
+    height: auto;
+    margin: 30px auto 0;
+    display: block;
+  }
+
+  /* الزر */
+  .main-btn {
+    position: static;
+    margin: 20px auto 0;
+    display: inline-block;
+  }
+
+  /* السوشيال */
+  .social {
+    position: static;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* الكروت */
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  /* المشاريع */
+  .projects .content {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+
+/* @media (max-width: 768px) {
+
+  header {
+    padding: 10px 30px;
+    flex-direction: column;
+  }
+
+  .navbar a {
+    padding-left: 15px;
+    font-size: 1em;
+  }
+
+  section {
+    padding: 100px 30px;
+    height: auto;
+  }
+
+  .main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  div h2, div h3 {
+    top: 0;
+  }
+
+  div img {
+    position: static;
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+  }
+
+  .main-btn {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .social {
+    position: static;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .projects .content {
+    flex-direction: column;
+    height: auto;
+  }
+}
+@media (max-width: 900px) {
+
+  header {
+    padding: 10px 30px;
+  }
+
+  section {
+    padding: 80px 30px;
+    height: auto;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  div h2,
+  div h3 {
+    position: static;
+    top: 0;
+  }
+
+  div img {
+    position: static;
+    width: 260px;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .main-btn {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .social {
+    position: static;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  .projects .content {
+    flex-direction: column;
+    height: auto;
+  }
+} */
+
